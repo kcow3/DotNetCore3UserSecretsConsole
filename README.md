@@ -6,10 +6,10 @@ Setup instructions:
 
 The following nuget packages are required:
 
-* <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.0.0" />
-* <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.1" />
-* <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.1" />
-* <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.1" />
+* Microsoft.Extensions.Configuration.UserSecrets
+* Microsoft.Extensions.DependencyInjection
+* Microsoft.Extensions.Options
+* Microsoft.Extensions.Options.ConfigurationExtensions
 
 Add user secrets in json form by right clicking on your project and selecting [Manage User Secrets].
 
