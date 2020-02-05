@@ -22,4 +22,4 @@ The Secrets Model can now contain Properties you want to retrieve from User secr
 
 public string SomeUserSecret { get; set; }
 
-In Program.cs you can access secrets via the ISecretService interface.
+In Program.cs you can access secrets via the ISecretService interface modification, as well as SecretService.cs
