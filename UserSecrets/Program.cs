@@ -19,8 +19,6 @@ namespace UserSecrets
 
             var builder = new ConfigurationBuilder();
 
-            builder
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
             if (isDevelopment)
             {
@@ -32,7 +30,7 @@ namespace UserSecrets
             IServiceCollection services = new ServiceCollection();
 
             services
-                .Configure<Secrets>(Configuration.GetSection("SecretStuff"))
+                .Configure<Secrets>(Configuration.GetSection("Secrets"))
                 .AddOptions()
                 .AddSingleton<ISecretService, SecretService>()
                 .BuildServiceProvider();
