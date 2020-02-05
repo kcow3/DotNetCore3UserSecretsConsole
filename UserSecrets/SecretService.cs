@@ -14,7 +14,7 @@ namespace UserSecrets
 
         public string GetASecret()
         {
-            return _secrets.ApiKey;
+            return _secrets.SomeUserSecret;
         }
     }
 }

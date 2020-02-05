@@ -2,6 +2,6 @@
 {
     public class Secrets
     {
-        public string ApiKey { get; set; }
+        public string SomeUserSecret { get; set; }
     }
 }
